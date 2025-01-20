@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for Fluxora",
+  "homepage": "https://github.com/Fluxora-Dev/backend#readme",
+  "bugs": {
+    "url": "https://github.com/Fluxora-Dev/backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fluxora-Dev/backend.git"
+  },
+  "license": "MIT",
+  "author": "ElGodDakio",
+  "main": "dist/index",
+  "scripts": {
+    "compile": "npx tsc --w",
+    "serve": "nodemon dist/index"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mariadb": "^3.4.0",
+    "mongoose": "^8.9.5"
+  }
+}
